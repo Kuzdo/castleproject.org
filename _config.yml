@@ -5,3 +5,5 @@ description: Castle Project - build your .NET projects on a rock solid foundatio
 timezone: UTC
 permalink: /blog/:year/:month/:day/:title/
 markdown: kramdown
+
+theme: jekyll-theme-architect
