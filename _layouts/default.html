@@ -8,7 +8,7 @@
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <link rel="icon" type="image/png" href="img/castle-icon.png" />
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="Castle Project" href="{{ site.url }}feed/">
 
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Architects+Daughter">
